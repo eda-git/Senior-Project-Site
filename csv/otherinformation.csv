@@ -1,0 +1,9 @@
+HOUSEID,Property_Type,Built,Pet_Friendly,Style,Text_Description,Poster,Story
+1,Residential,1925,Yes,Craftsman,"A four bedroom, 2 bathroom craftsman. ",edali,2
+2,Residential,1990,No,Craftsman,"A four bedroom, 1 bathroom craftsman. ",edali,2
+3,Residential,2018,Yes,Igloo,"A five bedroom igloo, 3 baths",edali,1
+4,Residential,1930,No,Craftsman,"A four bedroom castle, 3 bathrooms",edali,2
+5,Residential,1940,Yes,Craftsman,"A four bedroom, 3 bedroom fixer-uper",edali,2
+6,Residential,1952,No,Craftsman,This is a blank description,edali,1
+7,Residential,1968,Yes,Craftsman,This is a blank description,edali,2
+8,Residential,1970,No,Craftsman,This is a blank description,edali,2

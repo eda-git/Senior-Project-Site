@@ -1,0 +1,698 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700i|IBM+Plex+Sans|IBM+Plex+Serif:400i|Open+Sans|Oswald|Roboto');
+
+@font-face {
+  font-family: 'Futura Bold';
+  src: url(futura-bold.ttf);
+}
+@font-face {
+  font-family: 'Futura Book';
+  src: url(futura-book.ttf);
+}
+
+@font-face {
+  font-family: 'Futura Heavy Italic';
+  src: url(futura-heavy-italic.ttf);
+}
+
+@font-face {
+  font-family: 'Futura Heavy';
+  src: url(futura-heavy.ttf);
+}
+
+@font-face {
+  font-family: 'Futura Medium';
+  src: url(futura-medium.ttf);
+}
+
+*, html {
+    margin:0;
+    padding:0;  
+}
+
+div#content div#item div {
+    display: block;
+}
+
+a#homeItem {
+    text-decoration: none;
+    color: #000;
+}
+div#content div#item {
+    text-align: center;
+    font-family: "IBM Plex Sans", sans-serif;
+    display: inline-block;
+    width: 31%;
+    border-style: solid;
+    padding-right: -1em;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Futura Medium", sans-serif;
+}
+.leaflet-popup-content {
+    font-family: "Futura Medium", sans-serif;
+    font-size: 1em!important;
+}
+
+html, body {
+    height: 200vh;
+    margin: 0 0;
+    padding: 0 0;
+    position: relative;
+    background: #fbf4f4;
+  }
+  #logo {font-family: "IBM Plex Sans", sans-serif;padding-right: 1em;margin-left: 0;font-size: 2em;font-weight: 800;position: relative;text-shadow: 1px 1px #000;font-style: oblique;display: inherit;}
+#logo span {font-family: "IBM Plex Serif", serif;font-weight: 300;}
+  a.logohref{
+    text-decoration: none;
+    color: #FFF;
+}
+div#background {
+    width: 100%;
+    height: 100%;
+    background: url(../img/demo.jpg) no-repeat 100% 63%;
+    background-size: cover;
+    filter: brightness(20%);
+    -webkit-filter: brightness(20%);
+    -moz-filter: brightness(20%);
+    -o-filter: brightness(20%);
+    -ms-filter: brightness(20%);
+    filter: brightness(20%);
+}
+div#holder {
+    /* height: 53%; */
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+header.active a.logohref {
+    color: #000;
+}
+  header {
+    position: fixed;
+    z-index: 999999;
+    height: 3em;
+    width: 100%;
+    /* padding: 18px; */
+    background: #ffffff00;
+    -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+  } 
+  
+  header.active {
+    background-color: #FFF;
+    border-bottom: 1px #000;
+    border-style: solid; 
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+ div#demobox {
+    margin-top: 6%;
+}
+
+div#content { 
+    position: absolute;
+    width: 100%;
+    height: 83%;
+    margin-top: 17%;
+    z-index: 9;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0.9em 1em;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    display: inline-grid;
+    font-size: 16px;
+    font-family: "Futura Heavy", sans-serif;
+}
+div#menus {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    height: 13%;
+    z-index: 99;
+    background: #000;
+    background: url(../img/demo.jpg) no-repeat 100% 63%; 
+    background-size: cover;
+    box-shadow: -2px 1px #000;
+}
+
+div#members {
+  position: absolute;
+  margin-top: 3%;
+  width: 100%;
+  height: 74%;
+}
+div#contents {
+  width: 99%;
+  background: #FFF;
+  text-align: center;
+  margin: 0 auto;
+  height: 100%;
+  border-radius: 1em;
+  box-shadow: 1px 4px #00000024;
+}
+div#content h2 {
+    font-family: "Futura Heavy Italic", sans-serif;
+}
+
+#mapid h1, h2, h3, h4, h5 {
+    font-family: "Futura Medium", sans-serif!important;
+    font-size: 1.2em;
+}
+div#photo {
+    height: 7.3em;
+    width: 100%;
+}
+
+div#section.subject div#item {
+    width: 15%;
+    display: inline-grid;
+}
+
+div#caption {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: oblique;
+    text-align: center;
+}
+
+div#section {
+    margin-left: 0.2em;
+}
+
+div#footer {
+    height: 8%;
+    background: hsla(225, 4%, 8%, 1);
+    width: 100%;
+    z-index: 99999;
+    position: fixed;
+    bottom: 0;
+}
+div#section {
+    margin-left: 0.2em;
+}
+
+div#footer {
+    height: 5%;
+    background: hsla(225, 4%, 8%, 1);
+    width: 100%;
+    z-index: 999999;
+    position: absolute;
+    bottom: 0;
+}
+
+div#holder div#item.add a {
+    text-decoration: none;
+    font-family: "Futura Heavy Italic", sans-serif;
+    color: #FFF;
+    text-shadow: 0px 0px 4px #000;
+}
+
+div#subsection {
+    height: 7%;
+    background: hsl(0, 0%, 21%);
+    width: 100%;
+    z-index: 999999;
+    position: absolute;
+    bottom: 4%;
+    }
+
+
+    button.button.login, button.button.favorite {
+    background: #000;
+    float: right;
+}
+
+div#item input[type="text"] {
+    font-size: 2em;
+    font-family: "Roboto", sans-serif;
+}
+
+div#item input[type="submit"] {
+    border-style: none;
+    font-family: "Futura", sans-serif;
+    color: #FFF;
+    padding: 0.95em;
+    vertical-align: bottom;
+    background: #000;
+    margin-top: .1em;
+}
+header.active #logo {
+    text-shadow: none!important;
+}
+/* Cities */
+
+div#photo.seattle {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/e/e3/Seattle_Kerry_Park_Skyline.jpg) no-repeat center;
+  background-size: cover;
+}
+
+
+div#photo.portland {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/8/8a/Portland_Oregon_-_White_Stag_sign_at_dusk.jpg) no-repeat center;
+  background-size: cover;
+}
+div#photo.tacoma {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Tacoma-Panorama.jpg/1920px-Tacoma-Panorama.jpg) no-repeat center;
+  background-size: cover;
+}
+div#photo.sanfrancisco {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/3/3e/San_Francisco%2C_California_06.JPG) no-repeat center;
+  background-size: cover;
+}
+div#photo.losangeles {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/4/4b/LosAngeles04.jpg) no-repeat center;
+  background-size: cover;
+}
+
+div#photo.spokane {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/9/95/SpokaneWA_FromSouthHill.jpg) no-repeat center;
+  background-size: cover;
+}
+
+div#photo.sandiego {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/San_Diego_Reflecting_Pond.jpg/1920px-San_Diego_Reflecting_Pond.jpg) no-repeat center;
+  background-size: cover;
+}
+
+/* Members */
+.properties {
+    display: inline-flex;
+    padding-bottom: 1em;
+    margin-top: -7em;
+}
+div#contents .align.left {
+    text-align: left;
+    margin-left: 1em;
+    padding-bottom: 7em;
+    margin-top: -2em;
+}
+
+div#delete, div#addimage {
+    background: #ca0000;
+    width: 4em;
+    text-align: center;
+    color: #FFF;
+    font-family: "IBM Plex Sans", sans-serif;
+    cursor: pointer;
+}
+
+.properties div#item {
+    border-style: solid;
+    margin-right: 1em;
+}
+
+.addnewproperty {
+    text-align: left;
+    /* background: #33e291; */
+    width: 30%;
+    margin-bottom: 1em;
+}
+
+#propertybutton {
+    text-decoration: none;
+    font-style: oblique;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    font-size: 3em;
+    width: 30%;
+   
+}
+
+.addnewproperty a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    font-style: oblique;
+    font-size: 4em;
+    background: #33e291;
+}
+div#logout a {
+    background: #ff0000;
+    width: 112%;
+    font-size: 4em;
+}
+/* Listing */
+
+div#housing_information {
+  display: inline-flex;
+  width: 100%;
+  height: 78%;
+  position: absolute;
+  margin-top: -3em;
+}
+
+div#housing_photo {
+  width: 53%;
+  height: 100%;
+
+  z-index: 9999;
+}
+
+.details {
+  width: 50%;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.5em;
+  z-index: 999;
+}
+
+.housing_information_items span.header {
+  width: 100%;
+  padding-right: 1em;
+  padding-left: 1em;
+  font-weight: 800;
+}
+
+div#housing_controls {
+    padding-bottom: 4em;
+    bottom: 2%;
+    position: absolute;
+}
+
+.housing_information_items {
+    margin-top: 1em;
+}
+
+form#loadBasic {
+  /* margin-top: 5em!important; */
+}
+header div#item {
+    display: inline-block;
+    visibility: hidden;
+}
+header.active div#item{
+  visibility: visible;
+}
+
+/* Maps */
+
+div#map_container {
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  z-index: 9;
+  margin-top: -5em;
+}
+
+div#mapid {
+  width: 50%;
+  height: 100%;
+}
+
+div#result {
+  width: 50%;
+  background: #fff;
+  border-top-style: solid;
+}
+#map {/* position:absolute; */top: 0;bottom:0;width:50%;}
+#cards #item div {
+    font-size: 0.8em;
+    color: #FFF;
+    text-shadow: 0 0 11px rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: left;
+    width: 101%;
+}
+
+#cards a {
+    color: #000;
+}
+
+#cards div#item {
+    background: #c9c9c9;
+}
+
+#cards #cost {
+    text-align: center;
+}
+
+div#homeItem #item {
+    width: 100%!important;
+}
+div#homeItem a {
+    color: #000;
+}
+div#homeItem {
+    padding-right: 1em;
+}
+div#addimage.report {
+    width: 7em;
+    margin-left: 3em;
+}
+/* AJAX */
+
+
+div#ajax_delivery, div#ajax_delivery #housing_details {
+  width: 69%;
+  height: 91%;
+  /* z-index: 99999; */
+  margin-top: 14em;
+  font-size: 0.8em;
+}
+
+div#ajax_delivery div#housing_details div#housing_information .details{
+  background: #fbf4f4;
+  z-index: 99999;
+}
+
+
+
+div#ajax_delivery div#housing_information {
+  width: 69%;
+  height: 41%!important;
+  margin-top: 5em;
+}
+
+div#ajax_delivery {
+  margin: 0 auto;
+  background: #0000007a;
+  position: absolute;
+  width: 100%;
+  visibility:hidden;
+}
+
+div#ajax_delivery.active {
+  margin: 0 auto;
+  background: #0000007a;
+  position: absolute;
+  width: 100%;
+  visibility:visible;
+}
+
+
+div#housing_details {}
+
+div#housing_details {
+  margin: 0 auto;
+}
+
+div#ajax_delivery {}
+
+#ajax_delivery div#housing_controls {
+  top: 0;
+  z-index: 99999;
+}
+
+#ajax_delivery h3 {
+  margin-top: 3em;
+}
+
+#ajax_delivery .housing_information_items {
+  margin-top: 0.2em;
+}
+
+div#ajax_delivery.active, div#ajax_delivery.active #housing_details {
+    z-index: 99999;
+}
+
+#housing_controls i {
+  float: right;
+}
+
+#ajax_delivery div#housing_controls button.button.login, button.button.favorite {
+  float: left;
+}
+
+#ajax_delivery div#housing_controls {width: 48%;}
+
+#housing_controls i {
+    float: right;
+    font-size: 3em;
+    margin-top: 0.1em;
+}
+
+#ajax_delivery div#housing_controls button.button.login, button.button.favorite {
+    float: left;
+}
+
+div#props.properties #cards {display: inline-flex;}
+
+#ajax_delivery div#housing_controls {width: 48%;}
+
+/* Delete */
+
+div#add_image_delivery, div#favorite_delivery, div#delete_delivery, div#delete_report_delivery {
+    margin: 0 auto;
+    background: #000000a6;
+    position: absolute;
+    width: 100%;
+    z-index: 999999;
+    height: 100%;
+    visibility: hidden;
+}
+
+div#add_image_delivery.active, div#favorite_delivery.active, div#delete_delivery.active, div#delete_report_delivery.active {
+  visibility:visible;
+}
+
+div#add_image_delivery, div#favorite_delivery, div#delete_delivery, div#delete_report_delivery {
+    margin: 0 auto;
+    background: #000000a6;
+    position: absolute;
+    width: 100%;
+    z-index: 999999;
+    height: 100%;
+}
+
+div#add_image_delivery #form, div#favorite_delivery #form, div#delete_delivery div#form, div#delete_report_delivery #form {
+    margin: 0 auto;
+    font-family: 'Futura Medium', sans-serif;
+    background: #c9c9c9;
+    width: 30%;
+    height: 7%;
+    margin-top: 4em;
+}
+
+div#add_image_delivery h3, div#favorite_delivery h3, div#delete_delivery h3, div#delete_report_delivery h3 {
+    padding-top: 1em;
+}
+
+div#delete_report_delivery #no, div#delete_report_delivery #yes, div#add_image_delivery #no, div#add_image_delivery #yes, div#favorite_delivery #yes, div#favorite_delivery #no, div#delete_delivery #yes, div#delete_delivery #no {
+    width: 3em;
+    height: 1.2em;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3em;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 9px; 
+}
+
+
+
+div#yes {
+    background: #009600;
+}
+
+div#no {
+    background: #960000;
+}
+
+div#search_filters form, div#search_filters button {
+    display: inline-block;
+    float: left;
+    padding-bottom: 1em;
+}
+
+
+
+div#search_filters {
+    /* width: 100%; */
+    height: 7em;
+    /* float: right; */
+    right: 0;
+    position: absolute;
+    /* margin-top: 4em; */
+}
+
+div#search_filters button{
+    background:#000;
+    cursor: pointer;
+}
+div#cards {
+    margin-top: 9em;
+}
+
+button.button.share a {
+  text-decoration: none;
+  color: #FFF;
+}
+button.button.share, button.button.report{
+  background: #000;
+}
+
+
+
+button.button.report {
+  margin-left: -0.3em;
+}
+div#logout.addnewproperty {
+    /* background: red; */
+    right: 0;
+    position: absolute;
+}
+
+.align.left div#cards div#homeItem a {
+  display: inline-flex;
+  text-decoration: none;
+}
+
+div#handler {
+    display: -webkit-box;
+    width: 100%;
+}
+
+div#addimage {
+    width: 6em;
+    margin-left: 3em;
+    background: green;
+}
+
+/* Admin */
+div#contents.admin {
+    background: none;
+    box-shadow: none;
+}
+div#overflow_container {
+    overflow-y: scroll;
+    height: 58%;
+    width: 92%;
+    /* position: absolute; */
+    border: #000;
+    border-style: solid;
+    margin-top: 1em;
+}
+
+div#overflow_container #cards {
+    width: 100%;
+    position: relative;
+    margin-top: 0;
+}
+
+div#overflow_container div#homeItem {
+    display: inline-block;
+}
+div#favs #cards {display: inline-flex;}
+/* Media Queries */
+
+@media screen and (max-width: 1700px){
+    div#search_filters {
+    margin-top: 1em;
+}
+div#map_container {
+    margin-top: -4em;
+}
+}
